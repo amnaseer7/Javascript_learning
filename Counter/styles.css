@@ -1,0 +1,50 @@
+body{
+    background-color: aliceblue;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#header{
+    text-align: center;
+}
+
+#heading{
+    color: darkblue;
+    font-weight: bold;
+    font-size:50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+#num{
+    color: darkblue;
+    font-weight: bold;
+    font-size:60px;
+}
+
+#btns{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    color: darkblue;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    padding: 6px;
+    margin: 4px;
+    border: 2px solid darkblue ;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
