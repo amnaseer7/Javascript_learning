@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: pink;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#bdy{
+    background-color: white;
+    width: 50%;
+    height:500px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow:  4px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.addlistitem{
+    display: flex;
+
+    width: 70%;
+}
+
+#input-el{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    margin-right: 20px;
+    width: 60%;
+    margin-right: 15px;
+
+}
+
+#addbtn{
+    padding: 10px;
+    background-color: pink;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid pink;
+    font-weight: bolder;
+    font-size: large;
+    width: 10%;
+}
+
+#header{
+    margin-right: 20px;
+}
+
+#header h1{
+   font-family: 'Courier New', Courier, monospace;
+
+}
